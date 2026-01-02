@@ -1,0 +1,21 @@
+{
+  "chat_history": [
+    {
+      "type": "HumanMessage",
+      "content": "what are the lowest quantity items present in the stock"
+    },
+    {
+      "type": "AIMessage",
+      "content": "The lowest quantity item is Pineapple - Organic with 0 units."
+    },
+    {
+      "type": "HumanMessage",
+      "content": "what is the estamted time for the order to arrive"
+    },
+    {
+      "type": "AIMessage",
+      "content": "The estimated time for the order to arrive is 1-3 days."
+    }
+  ],
+  "orders": {}
+}
