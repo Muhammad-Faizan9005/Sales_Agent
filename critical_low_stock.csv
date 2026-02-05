@@ -52,13 +52,13 @@ P00439,Shampoo - Organic,Personal Care,Metro Wholesale,6.12,34,29,14,33.88,25/01
 P00451,Green Beans - Organic,Canned Goods,Fresh Foods Inc,20.78,34,37,118,25.27,12/12/2026,6604730000000.0,17,C2,10/12/2025
 P00459,Cookies - Family Size,Bakery,Local Farms Co-op,30.6,4,26,28,20.53,18/04/2026,7634560000000.0,1,H3,08/12/2025
 P00493,Aluminum Foil - Regular,Household,Prime Vendors LLC,19.14,16,14,140,27.31,28/02/2026,1922560000000.0,20,B5,23/12/2025
-P00495,Bacon - Organic,Breakfast,Metro Wholesale,45.74,2,15,171,33.53,14/09/2026,4630080000000.0,18,F4,18/12/2025
+P00495,Bacon - Organic,Breakfast,Metro Wholesale,45.74,42,15,171,33.53,14/09/2026,4630080000000.0,18,F4,18/12/2025
 P00504,Pretzels - Family Size,Snacks,Prime Vendors LLC,4.08,25,19,2,24.35,28/03/2026,2470860000000.0,13,D2,25/12/2025
 P00505,Energy Drink - Family Size,Beverages,Fresh Foods Inc,4.5,28,10,91,35.53,06/08/2026,7985480000000.0,16,E5,20/12/2025
 P00509,Soda - Organic,Beverages,Local Farms Co-op,20.87,40,16,66,14.1,02/02/2026,6217460000000.0,1,H1,06/12/2025
 P00514,Frozen Fruit - Family Size,Frozen,Metro Wholesale,17.45,12,35,200,12.15,07/02/2026,7945060000000.0,15,E3,20/12/2025
 P00532,Toothpaste - Organic,Personal Care,Fresh Foods Inc,13.12,46,33,122,20.36,04/10/2026,5556880000000.0,20,B2,20/12/2025
-P00535,Frozen Pizza - Regular,Frozen,Daily Suppliers Co,10.86,1,26,55,14.54,10/02/2026,5571060000000.0,4,B1,07/12/2025
+P00535,Frozen Pizza - Regular,Frozen,Daily Suppliers Co,10.86,31,26,55,14.54,10/02/2026,5571060000000.0,4,B1,07/12/2025
 P00539,Soda - Organic,Beverages,Daily Suppliers Co,35.56,13,14,26,6.73,14/03/2026,2652550000000.0,13,G4,09/12/2025
 P00556,All-Purpose Cleaner - Family Size,Household,Fresh Foods Inc,36.11,21,47,121,16.89,01/08/2026,4089860000000.0,11,A3,05/12/2025
 P00558,Cottage Cheese - Value,Dairy,Local Farms Co-op,13.73,17,41,92,7.01,21/11/2026,8283230000000.0,16,G2,06/12/2025
@@ -80,7 +80,7 @@ P00687,Popsicles - Premium,Frozen,Daily Suppliers Co,24.95,28,19,186,31.36,20/10
 P00704,Trail Mix - Value,Snacks,Metro Wholesale,40.99,16,45,28,32.19,31/03/2026,5534810000000.0,2,E2,26/12/2025
 P00708,Lotion - Premium,Personal Care,Daily Suppliers Co,48.32,48,16,97,13.76,22/06/2026,8002790000000.0,6,F4,10/12/2025
 P00746,Bananas - Regular,Produce,Prime Vendors LLC,28.72,17,46,22,4.59,28/07/2026,2170560000000.0,10,E3,17/12/2025
-P00747,2% Milk - Organic,Dairy,Metro Wholesale,47.9,2,34,25,1.65,22/09/2026,9595670000000.0,14,G2,04/12/2025
+P00747,2% Milk - Organic,Dairy,Metro Wholesale,47.9,42,34,25,1.65,22/09/2026,9595670000000.0,14,G2,04/12/2025
 P00748,Paper Towels - Organic,Personal Care,National Distributors,4.25,2,37,23,7.53,05/08/2026,1910100000000.0,12,H2,09/12/2025
 P00759,Razors - Value,Personal Care,Fresh Foods Inc,37.21,18,22,32,31.92,19/01/2026,5800220000000.0,4,B1,25/12/2025
 P00811,Coffee - Value,Beverages,Daily Suppliers Co,29.98,32,40,1,13.84,11/06/2026,5168210000000.0,16,F1,09/12/2025
@@ -94,7 +94,6 @@ P00896,Greek Yogurt - Regular,Dairy,Local Farms Co-op,35.5,35,17,170,24.07,30/04
 P00925,Pork Chops - Family Size,Meat,Daily Suppliers Co,2.86,29,32,165,10.42,10/04/2026,9447020000000.0,18,A1,12/12/2025
 P00932,Corn - Regular,Canned Goods,Prime Vendors LLC,49.97,28,15,48,33.22,24/10/2026,1439880000000.0,16,F5,11/12/2025
 P00933,Soup - Value,Canned Goods,Prime Vendors LLC,49.01,33,32,40,8.72,06/03/2026,5334680000000.0,13,F3,11/12/2025
-P00951,Steak - Regular,Meat,Prime Vendors LLC,9.25,0,10,93,10.45,04/02/2026,5563290000000.0,9,C2,15/12/2025
 P00959,Croissants - Family Size,Bakery,Metro Wholesale,17.32,41,26,116,11.01,10/04/2026,7172280000000.0,17,H5,30/12/2025
 P00961,Cheese - Organic,Dairy,National Distributors,34.8,41,41,19,21.13,10/11/2026,1669070000000.0,20,A3,07/12/2025
 P00964,Cottage Cheese - Premium,Dairy,Metro Wholesale,13.2,38,39,152,25.62,05/12/2026,2878650000000.0,3,H5,03/12/2025

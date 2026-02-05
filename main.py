@@ -58,31 +58,31 @@ def print_streaming_response(agent, user_input: str, session_id: str):
         full_response = ""
         
         # Stream the response
+        last_ai_message = None
+        tool_calls_shown = set()
+        
         for chunk in agent.stream(messages_input, config, stream_mode="values"):
             if "messages" in chunk and chunk["messages"]:
-                latest_message = chunk["messages"][-1]
-                
-                # Check if it's an AI message with content
-                if hasattr(latest_message, '__class__') and \
-                   latest_message.__class__.__name__ in ['AIMessage', 'AIMessageChunk']:
-                    
-                    if hasattr(latest_message, 'content') and latest_message.content:
-                        content = latest_message.content
+                for message in chunk["messages"]:
+                    # Show tool calls
+                    if hasattr(message, '__class__') and \
+                       message.__class__.__name__ in ['AIMessage', 'AIMessageChunk']:
                         
-                        if not response_started:
-                            response_started = True
+                        if hasattr(message, 'tool_calls') and message.tool_calls:
+                            for tool_call in message.tool_calls:
+                                tool_id = tool_call.get('id', '')
+                                if tool_id not in tool_calls_shown:
+                                    tool_name = tool_call.get('name', 'unknown')
+                                    console.print(f"\n[dim]🔧 Using tool: {tool_name}[/dim]")
+                                    tool_calls_shown.add(tool_id)
                         
-                        # Print new content
-                        if content != full_response:
-                            new_content = content[len(full_response):]
-                            console.print(new_content, end="")
-                            full_response = content
-                    
-                    # Show tool calls if present
-                    if hasattr(latest_message, 'tool_calls') and latest_message.tool_calls:
-                        for tool_call in latest_message.tool_calls:
-                            tool_name = tool_call.get('name', 'unknown')
-                            console.print(f"\n[dim]🔧 Using tool: {tool_name}[/dim]")
+                        # Keep track of last AI message
+                        if hasattr(message, 'content') and message.content:
+                            last_ai_message = message.content
+        
+        # Print the final complete response
+        if last_ai_message:
+            console.print(last_ai_message)
         
         console.print()  # New line after response
         

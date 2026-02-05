@@ -13,6 +13,7 @@ from tools import (
     place_order,
     get_recent_orders,
     get_supplier_details,
+    place_batch_orders,
 )
 
 # Import middleware
@@ -32,7 +33,7 @@ OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 BASE_MODEL_NAME = os.getenv("BASE_MODEL", "gpt-oss:20b-cloud")
 # BASE_MODEL_NAME = os.getenv("BASE_MODEL", "glm-4.6:cloud")
 ADVANCED_MODEL_NAME = os.getenv("ADVANCED_MODEL", "glm-4.6:cloud")
-TEMPERATURE = float(os.getenv("OLLAMA_TEMPERATURE", "0.3"))
+TEMPERATURE = float(os.getenv("OLLAMA_TEMPERATURE", "0.1"))
 
 
 def get_system_prompt(context: dict = None) -> str:
@@ -66,9 +67,17 @@ Your role is to help manage grocery store inventory, process orders, and provide
 **TOOL USAGE:**
 - Use search_inventory for product queries and stock checks
 - Use generate_low_stock_report for inventory analysis
-- Use place_order to create purchase orders (confirm details first!)
+- Use place_order to create a SINGLE purchase order
+- Use place_batch_orders to order MULTIPLE products at once (more efficient!)
 - Use get_recent_orders to check order history
 - Use get_supplier_details for supplier information
+
+**CRITICAL EXECUTION RULES:**
+🚨 NEVER call multiple tools in parallel - ALWAYS execute tools one at a time sequentially
+🚨 When user wants to order multiple items, you MUST use place_batch_orders (single call) instead of calling place_order multiple times
+🚨 For "order all low stock items", the workflow is: 1) generate_low_stock_report → 2) place_batch_orders with ALL product IDs
+🚨 Wait for each tool to complete before calling the next tool
+🚨 Only use place_order for single product orders
 """
     
     if context and "total_products" in context:
@@ -116,7 +125,8 @@ def create_grocery_agent(
         temperature=TEMPERATURE,
         num_predict=4096,  # More tokens for complex queries
     )
-    
+    place_batch_orders,
+        
     # Prepare tools list
     tools = [
         search_inventory,
@@ -175,8 +185,9 @@ def get_agent_config(session_id: str = "default") -> dict:
     return {
         "configurable": {
             "thread_id": session_id,
+            "max_concurrency": 1,  # Force sequential tool execution
         },
-        "recursion_limit": 50,  # Max iterations for ReAct loop
+        "recursion_limit": 25,  # Reduced to prevent server overload
     }
 
 

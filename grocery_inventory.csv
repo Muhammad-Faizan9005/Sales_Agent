@@ -493,7 +493,7 @@ P00491,Lemonade - Value,Beverages,Daily Suppliers Co,11.75,78,47,109,21.58,13/08
 P00492,Ham - Organic,Meat,Fresh Foods Inc,22.56,112,26,90,34.47,11/09/2026,2017080000000.0,18,F5,09/12/2025
 P00493,Aluminum Foil - Regular,Household,Prime Vendors LLC,19.14,16,14,140,27.31,28/02/2026,1922560000000.0,20,B5,23/12/2025
 P00494,Croissants - Organic,Bakery,Metro Wholesale,32.71,228,35,125,30.26,25/04/2026,1571380000000.0,2,F5,18/12/2025
-P00495,Bacon - Organic,Breakfast,Metro Wholesale,45.74,2,15,171,33.53,14/09/2026,4630080000000.0,18,F4,18/12/2025
+P00495,Bacon - Organic,Breakfast,Metro Wholesale,45.74,42,15,171,33.53,14/09/2026,4630080000000.0,18,F4,18/12/2025
 P00496,Tomatoes - Value,Produce,Quality Foods Ltd,44.09,101,43,99,21.4,10/07/2026,8864430000000.0,1,D1,03/12/2025
 P00497,Shampoo - Premium,Personal Care,Daily Suppliers Co,6.96,89,36,137,3.58,07/04/2026,2631770000000.0,6,F4,13/12/2025
 P00498,Ranch Dressing - Family Size,Condiments,Local Farms Co-op,43.18,140,10,96,30.04,22/02/2026,3766570000000.0,15,H3,30/12/2025
@@ -533,7 +533,7 @@ P00531,Sausage - Regular,Meat,National Distributors,44.76,177,35,39,23.7,09/01/2
 P00532,Toothpaste - Organic,Personal Care,Fresh Foods Inc,13.12,46,33,122,20.36,04/10/2026,5556880000000.0,20,B2,20/12/2025
 P00533,Granola Bars - Value,Snacks,Daily Suppliers Co,5.79,186,32,48,20.91,17/06/2026,8421280000000.0,9,A5,15/12/2025
 P00534,Pancake Mix - Regular,Breakfast,Metro Wholesale,10.56,123,34,49,15.2,30/03/2026,4562230000000.0,1,A2,16/12/2025
-P00535,Frozen Pizza - Regular,Frozen,Daily Suppliers Co,10.86,1,26,55,14.54,10/02/2026,5571060000000.0,4,B1,07/12/2025
+P00535,Frozen Pizza - Regular,Frozen,Daily Suppliers Co,10.86,31,26,55,14.54,10/02/2026,5571060000000.0,4,B1,07/12/2025
 P00536,Aluminum Foil - Family Size,Household,Metro Wholesale,18.93,132,39,171,17.96,03/06/2026,5942600000000.0,9,H5,22/12/2025
 P00537,French Fries - Premium,Frozen,Quality Foods Ltd,25.4,69,22,52,3.33,26/09/2026,4537300000000.0,16,A5,03/12/2025
 P00538,Frozen Pizza - Organic,Frozen,Local Farms Co-op,10.59,484,50,154,16.06,19/05/2026,2771080000000.0,8,H2,22/12/2025
@@ -745,7 +745,7 @@ P00743,Napkins - Value,Household,National Distributors,45.21,166,16,141,33.26,20
 P00744,Pork Chops - Regular,Meat,Metro Wholesale,6.02,265,13,130,10.92,29/12/2026,7029310000000.0,17,D2,16/12/2025
 P00745,Peppers - Regular,Produce,National Distributors,20.28,461,10,143,19.76,27/02/2026,1600090000000.0,2,H1,26/12/2025
 P00746,Bananas - Regular,Produce,Prime Vendors LLC,28.72,17,46,22,4.59,28/07/2026,2170560000000.0,10,E3,17/12/2025
-P00747,2% Milk - Organic,Dairy,Metro Wholesale,47.9,2,34,25,1.65,22/09/2026,9595670000000.0,14,G2,04/12/2025
+P00747,2% Milk - Organic,Dairy,Metro Wholesale,47.9,42,34,25,1.65,22/09/2026,9595670000000.0,14,G2,04/12/2025
 P00748,Paper Towels - Organic,Personal Care,National Distributors,4.25,2,37,23,7.53,05/08/2026,1910100000000.0,12,H2,09/12/2025
 P00749,Onions - Family Size,Produce,Metro Wholesale,33.83,106,29,44,27.01,10/06/2026,8575040000000.0,10,G4,29/12/2025
 P00750,Toilet Paper - Family Size,Personal Care,Fresh Foods Inc,15.9,62,12,104,18.0,28/01/2026,9838930000000.0,4,G5,05/12/2025
@@ -949,7 +949,7 @@ P00947,Dish Soap - Organic,Household,Quality Foods Ltd,30.0,493,33,165,12.48,25/
 P00948,Oranges - Family Size,Produce,Fresh Foods Inc,14.35,88,43,65,33.88,02/09/2026,9137830000000.0,7,A5,26/12/2025
 P00949,Fruit Snacks - Organic,Snacks,National Distributors,23.47,273,33,62,13.29,06/04/2026,7755550000000.0,1,H2,15/12/2025
 P00950,Pretzels - Family Size,Snacks,Local Farms Co-op,47.95,339,45,107,13.41,13/10/2026,8496220000000.0,12,A3,28/12/2025
-P00951,Steak - Regular,Meat,Prime Vendors LLC,9.25,0,10,93,10.45,04/02/2026,5563290000000.0,9,C2,15/12/2025
+P00951,Steak - Regular,Meat,Prime Vendors LLC,9.25,50,10,93,10.45,04/02/2026,5563290000000.0,9,C2,15/12/2025
 P00952,Ham - Organic,Meat,Metro Wholesale,12.85,79,22,26,24.35,20/04/2026,2784860000000.0,13,F1,04/12/2025
 P00953,Bleach - Premium,Household,Local Farms Co-op,13.56,495,24,175,12.35,20/04/2026,9773340000000.0,11,B5,03/12/2025
 P00954,Pancake Mix - Family Size,Breakfast,Metro Wholesale,31.4,210,15,5,6.38,14/05/2026,8460460000000.0,16,H1,15/12/2025
