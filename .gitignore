@@ -1,14 +1,18 @@
 # Environment variables
 .env
+.env.local
 
 # Virtual environment
 venv/
+env/
+ENV/
 
 # Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyc
 
 # Distribution / packaging
 .Python
@@ -60,3 +64,22 @@ coverage.xml
 # OS
 .DS_Store
 Thumbs.db
+
+# LangChain / LangGraph specific
+langgraph_checkpoints/
+.langsmith/
+langsmith_cache/
+
+# Agent data files (optional - uncomment if you don't want to track these)
+# agent_memory.json
+# stock_order.csv
+# critical_low_stock.csv
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
